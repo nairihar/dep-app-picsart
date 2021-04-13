@@ -1,5 +1,5 @@
 describe('Test, example', () => {
-  it('something', () => {
-    throw 'err';
+  it('something', (done) => {
+    done()
   });
 });
