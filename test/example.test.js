@@ -4,6 +4,6 @@ describe('Test, example', () => {
   });
 
   it('something 2', (done) => {
-    done('arg')
+    done()
   });
 });
