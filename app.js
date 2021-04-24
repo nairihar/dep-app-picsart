@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000
 console.log(port);
 
 app.get('/', (req, res) => {
-  res.send('Hello!')
+  res.send('Hello there!')
 })
 
 app.get('/ping', (req, res) => {
